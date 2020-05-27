@@ -2613,7 +2613,7 @@ GameObject:
   - component: {fileID: 7430330786378643554}
   - component: {fileID: 7300612575223424688}
   - component: {fileID: 2824524928470401484}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Triger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2644,10 +2644,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1
+  m_Radius: 0.7876082
+  m_Height: 1.5752153
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.0000003459729, z: -2.614623}
 --- !u!114 &7300612575223424688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2660,6 +2660,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d645983d788d04c43977043ec60bf953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  colliders:
+  - {fileID: 4961876214563423135}
+  - {fileID: 6364336358589994595}
+  - {fileID: 7576447621039246328}
+  - {fileID: 8803398299171723828}
+  - {fileID: 1735312144330011586}
+  - {fileID: 2637065306680535921}
+  - {fileID: 477144124878205759}
+  - {fileID: 6276055046012459006}
+  - {fileID: 575994250352366131}
+  - {fileID: 1430950745509988029}
+  - {fileID: 7494782752108620813}
+  - {fileID: 8443785501903858651}
+  - {fileID: 3920199360231690889}
+  - {fileID: 5488224367781064913}
+  - {fileID: 2131373890328295139}
+  - {fileID: 6669274663324978048}
+  - {fileID: 3214865229265382906}
+  - {fileID: 4292875083604321373}
+  - {fileID: 1220838391389013013}
+  - {fileID: 6308975276353586102}
+  - {fileID: 8790046707799437742}
+  - {fileID: 77471988097107323}
+  - {fileID: 5139804567416598272}
+  - {fileID: 3972974740277290363}
+  - {fileID: 1939591208140111967}
+  - {fileID: 5445145985821562712}
+  - {fileID: 7444714561860349886}
+  - {fileID: 167906982899098247}
+  - {fileID: 518342202686569211}
+  - {fileID: 720321991833228458}
+  - {fileID: 8398778242374350360}
+  - {fileID: 7333789603842439327}
 --- !u!54 &2824524928470401484
 Rigidbody:
   m_ObjectHideFlags: 0
