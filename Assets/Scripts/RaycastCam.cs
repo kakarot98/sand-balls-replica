@@ -9,6 +9,8 @@ public class RaycastCam : MonoBehaviour
 
     Camera cam;
 
+    public Transform ringPrefab = default;
+
     private void Start()
     {
         cam = transform.GetComponent<Camera>();
@@ -24,9 +26,13 @@ public class RaycastCam : MonoBehaviour
         ray = cam.ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(ray, out hit)) {
-            //deform
-            DeformPlane deformPlane = hit.transform.GetComponent<DeformPlane>();
-            deformPlane.DeformThisPlane(hit.point);
+            
+            DeformPlane deformthePlane = hit.transform.GetComponent<DeformPlane>();
+            deformthePlane.DeformThisPlane(hit.point);
+
+            Instantiate(ringPrefab, new Vector3(hit.point.x, hit.point.y, hit.point.z - 0.11f), Quaternion.Euler(-90, 0, 0));
+
+            
         }
     }
 }

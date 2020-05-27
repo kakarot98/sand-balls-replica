@@ -11,9 +11,9 @@ public class DeformPlane : MonoBehaviour
 
     Vector3[] vertices;
     [SerializeField]
-    float radius;
+    float radius = default;
     [SerializeField]
-    float power;
+    float power = default;
 
     private void Start()
     {
