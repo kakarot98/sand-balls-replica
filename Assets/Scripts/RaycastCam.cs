@@ -35,7 +35,7 @@ public class RaycastCam : MonoBehaviour
                 DeformPlane deformthePlane = hit.transform.GetComponent<DeformPlane>();
                 deformthePlane.DeformThisPlane(hit.point);
 
-                Instantiate(ringPrefab, new Vector3(hit.point.x, hit.point.y, hit.point.z - 0.11f), Quaternion.Euler(-90, 0, 0));
+               Instantiate(ringPrefab, new Vector3(hit.point.x, hit.point.y, hit.point.z - 0.11f), Quaternion.Euler(-90, 0, 0));
 
 
             }
