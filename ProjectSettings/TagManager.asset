@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ring Block
   - RingBlock
+  - ColouredBalls
+  - WhiteBalls
   layers:
   - Default
   - TransparentFX
